@@ -17,9 +17,12 @@ const Home = () => {
         <h2 className='animate-charcter'>Hi, My Name is Raja Kumar</h2>
         <div className="prompt">
             <p>A software  developer  with  a passion  for learning and creating</p>
-<FaLinkedin/>
-<MdEmail/>
-<FaGithub/>
+            <div className='link'>
+            <FaLinkedin onClick={()=>window.open('https://www.linkedin.com/in/rajakumar9330/')}/>
+<MdEmail onClick={()=>window.open('')}/>
+<FaGithub onClick={()=>window.open('https://github.com/rajak9930')}/>
+            </div>
+
         </div>
         </div>
         <div className="skills">
