@@ -3,20 +3,18 @@ import { FaInstagram,FaWhatsapp,FaGithub,FaLinkedin } from "react-icons/fa";
 
 
 const Footer = () => {
-  const handleLinkedin=()=>{
-    window.open("https://www.linkedin.com/in/rajakumar9330/")
-  }
+
   return (
     <>
     <div className="footer">
 
         <div className='socialMedia'>
-            <FaLinkedin onClick={handleLinkedin}/>
+            <FaLinkedin onClick={()=>window.open("https://www.linkedin.com/in/rajakumar9330/")}/>
             <FaGithub/>
             <FaInstagram/>
             <FaWhatsapp/>
         </div>
-        <p>Copyright &copy; {new Date().getFullYear()} | All rights reserved | Raja Kumar </p>
+        <p>Copyright &copy; {new Date().getFullYear()} |All rights reserved | Raja Kumar </p>
     </div>
     </>
   )
