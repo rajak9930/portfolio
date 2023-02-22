@@ -3,7 +3,9 @@ import { FaGithub,FaLinkedin, } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import '../Style/Home.css';
 //import profile from '../assets/profile_pic.jpeg'
+import {UrlTitle} from '../Service/UrlTitle';
 const Home = () => {
+    UrlTitle(`Home | portfolio`)
   return (
     <>
      <div className="home">

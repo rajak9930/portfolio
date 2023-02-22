@@ -2,12 +2,14 @@ import React from 'react';
 import { useParams } from 'react-router';
 import { Db } from '../DataBase/Db';
 import { FaLink } from "react-icons/fa";
-import '../Style/ProjectDisplay.css'
+import '../Style/ProjectDisplay.css';
+import {UrlTitle} from '../Service/UrlTitle'
 const ProjectDisplay = () => {
+ 
 const {id} =useParams();
 const project=Db[id];
 const link=project.url
-
+UrlTitle(`Project ${project.title}| portfolio`)
   return (
     <>
       <div className="project">

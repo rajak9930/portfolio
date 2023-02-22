@@ -2,7 +2,9 @@ import React from 'react'
 import ProjectItem from '../Components/ProjectItem';
 import '../Style/Project.css';
 import { Db } from '../DataBase/Db';
+import {UrlTitle} from '../Service/UrlTitle'
 const Project = () => {
+  UrlTitle(`Project | portfolio`)
   return (
     <>
       <div className="projects">

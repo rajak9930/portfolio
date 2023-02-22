@@ -4,7 +4,9 @@ import { MdWork } from "react-icons/md";
 import "react-vertical-timeline-component/style.min.css";
 import { IoIosSchool } from "react-icons/io";
 import '../Style/Experience.css';
+import {UrlTitle} from '../Service/UrlTitle'
 const Experience = () => {
+    UrlTitle(`Experience | portfolio`)
     return (
         <>
             <div className="experience">
