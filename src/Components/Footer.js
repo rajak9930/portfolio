@@ -16,7 +16,7 @@ const Footer = () => {
             <FaInstagram/>
             <FaWhatsapp/>
         </div>
-        <p>©️copy: 2023 Raja</p>
+        <p>Copyright &copy; {new Date().getFullYear()} | All rights reserved | Raja Kumar </p>
     </div>
     </>
   )
