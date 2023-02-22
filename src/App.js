@@ -1,4 +1,4 @@
-import {Routes,Route} from 'react-router-dom'
+import {Routes,Route, Navigate} from 'react-router-dom'
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import Experience from './Pages/Experience';
@@ -7,6 +7,7 @@ import Project from './Pages/Project';
 import './Style/Navbar.css';
 import './Style/Footer.css'
 import ProjectDisplay from './Pages/ProjectDisplay';
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
     <Route path='/project' element={<Project/>}/>
     <Route path='/project/:id' element={<ProjectDisplay/>}/>
     <Route path='/experience' element={<Experience/>}/>
+    <Route path='/*' element={<Navigate to="/" />}/>
   </Routes>
 <Footer/>
     </div>

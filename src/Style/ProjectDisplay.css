@@ -1,6 +1,6 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,4 +27,8 @@
   .project svg {
     font-size: 60px;
     color: #3e497a;
+  }
+  .linkIcon{
+    width: 40px;
+    cursor: pointer;
   }

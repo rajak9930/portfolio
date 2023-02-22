@@ -27,10 +27,7 @@ const Home = () => {
                     <h2>Front-End</h2>
                     <span>ReactJS, Redux, HTML, CSS, BootStrap</span>
                 </li>
-                <li className='item'>
-                    <h2>Back-End</h2>
-                    <span></span>
-                </li>
+
                 <li className='item'>
                     <h2>Languages</h2>
                     <span>JavaScript</span>
