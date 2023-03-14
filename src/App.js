@@ -17,7 +17,7 @@ function App() {
     <Route path='/project' element={<Project/>}/>
     <Route path='/project/:id' element={<ProjectDisplay/>}/>
     <Route path='/experience' element={<Experience/>}/>
-    <Route path='/*' element={<Navigate to="/" />}/>
+    <Route path='/:any' element={<h1>404</h1>}/>
   </Routes>
 <Footer/>
     </div>

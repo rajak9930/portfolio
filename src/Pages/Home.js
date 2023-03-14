@@ -30,12 +30,12 @@ const Home = () => {
             <ol>
                 <li className='item'>
                     <h2>Front-End</h2>
-                    <span>ReactJS, Redux, HTML, CSS, BootStrap</span>
+                    <span>ReactJS, Redux, HTML, CSS,Tailwind CSS, BootStrap</span>
                 </li>
 
                 <li className='item'>
                     <h2>Languages</h2>
-                    <span>JavaScript</span>
+                    <span>JavaScript ,Php</span>
                 </li>
             </ol>
         </div>
